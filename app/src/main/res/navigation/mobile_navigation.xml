@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ru.mirea.goryacheva.mireaprojectpractice3.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="ru.mirea.goryacheva.mireaprojectpractice3.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="ru.mirea.goryacheva.mireaprojectpractice3.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_Calculator"
+        android:name="ru.mirea.goryacheva.mireaprojectpractice3.Nav_Calculator"
+        android:label="fragment_nav__calculator"
+        tools:layout="@layout/fragment_nav__calculator" />
+    <fragment
+        android:id="@+id/nav_Browser"
+        android:name="ru.mirea.goryacheva.mireaprojectpractice3.Nav_Browser"
+        android:label="fragment_nav__browser"
+        tools:layout="@layout/fragment_nav__browser" />
+    <fragment
+        android:id="@+id/musicFragment"
+        android:name="ru.mirea.goryacheva.mireaprojectpractice3.MusicFragment"
+        android:label="fragment_music"
+        tools:layout="@layout/fragment_music" />
+    <fragment
+        android:id="@+id/navCamera"
+        android:name="ru.mirea.goryacheva.mireaprojectpractice3.NavCamera"
+        android:label="fragment_nav_camera"
+        tools:layout="@layout/fragment_nav_camera" />
+    <fragment
+        android:id="@+id/navRecording"
+        android:name="ru.mirea.goryacheva.mireaprojectpractice3.NavRecording"
+        android:label="fragment_nav_recording"
+        tools:layout="@layout/fragment_nav_recording" />
+    <fragment
+        android:id="@+id/navSensors"
+        android:name="ru.mirea.goryacheva.mireaprojectpractice3.navSensors"
+        android:label="fragment_nav_sensors"
+        tools:layout="@layout/fragment_nav_sensors" />
+</navigation>
