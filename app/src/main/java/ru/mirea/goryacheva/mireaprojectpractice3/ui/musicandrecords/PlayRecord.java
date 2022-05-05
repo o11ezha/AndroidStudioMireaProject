@@ -1,4 +1,4 @@
-package ru.mirea.goryacheva.mireaprojectpractice3;
+package ru.mirea.goryacheva.mireaprojectpractice3.ui.musicandrecords;
 
 import android.content.Context;
 import android.media.MediaPlayer;

@@ -1,4 +1,4 @@
-package ru.mirea.goryacheva.mireaprojectpractice3;
+package ru.mirea.goryacheva.mireaprojectpractice3.ui.musicandrecords;
 
 import android.Manifest;
 import android.content.ContentResolver;
@@ -21,10 +21,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ImageButton;
 
 import java.io.File;
 import java.io.IOException;
+
+import ru.mirea.goryacheva.mireaprojectpractice3.R;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -46,14 +47,7 @@ public class NavRecording extends Fragment {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment NavRecording.
-     */
+
     // TODO: Rename and change types and number of parameters
     public static NavRecording newInstance(String param1, String param2) {
         NavRecording fragment = new NavRecording();
@@ -96,9 +90,9 @@ public class NavRecording extends Fragment {
         View view = inflater.inflate(R.layout.fragment_nav_recording,
                 container, false);
 
-        playButton = (Button) view.findViewById(R.id.buttonListenRecord);
-        startButton = (Button) view.findViewById(R.id.buttonStartRecord);
-        stopButton = (Button) view.findViewById(R.id.buttonStopRecord);
+        playButton = view.findViewById(R.id.buttonListenRecord);
+        startButton = view.findViewById(R.id.buttonStartRecord);
+        stopButton = view.findViewById(R.id.buttonStopRecord);
 
         onPlayButtonClick(view);
         onRecordStartClick(view);

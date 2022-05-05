@@ -1,6 +1,5 @@
-package ru.mirea.goryacheva.mireaprojectpractice3;
+package ru.mirea.goryacheva.mireaprojectpractice3.ui.browser;
 
-import android.os.Build;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -8,9 +7,10 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import ru.mirea.goryacheva.mireaprojectpractice3.R;
 
 /**
  * A simple {@link Fragment} subclass.

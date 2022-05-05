@@ -1,4 +1,4 @@
-package ru.mirea.goryacheva.mireaprojectpractice3;
+package ru.mirea.goryacheva.mireaprojectpractice3.ui.musicandrecords;
 
 import android.annotation.SuppressLint;
 import android.app.Service;
@@ -13,6 +13,8 @@ import android.provider.MediaStore;
 import androidx.annotation.RawRes;
 
 import java.util.ArrayList;
+
+import ru.mirea.goryacheva.mireaprojectpractice3.R;
 
 public class PlayerService extends Service {
     private MediaPlayer mediaPlayer;

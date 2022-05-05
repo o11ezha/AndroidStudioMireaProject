@@ -1,4 +1,4 @@
-package ru.mirea.goryacheva.mireaprojectpractice3;
+package ru.mirea.goryacheva.mireaprojectpractice3.ui.musicandrecords;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+
+import ru.mirea.goryacheva.mireaprojectpractice3.R;
 
 /**
  * A simple {@link Fragment} subclass.

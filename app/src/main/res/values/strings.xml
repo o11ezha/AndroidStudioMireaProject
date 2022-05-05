@@ -18,4 +18,6 @@
     <string name="menu_camera">Camera</string>
     <string name="menu_sensors">Sensors</string>
     <string name="menu_recording">Record</string>
+    <string name="menu_Settings">Settings</string>
+    <string name="manu_Stories">Stories</string>
 </resources>

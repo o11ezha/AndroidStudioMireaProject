@@ -1,4 +1,4 @@
-package ru.mirea.goryacheva.mireaprojectpractice3;
+package ru.mirea.goryacheva.mireaprojectpractice3.ui.calculator;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -11,6 +11,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import ru.mirea.goryacheva.mireaprojectpractice3.R;
 
 /**
  * A simple {@link Fragment} subclass.
