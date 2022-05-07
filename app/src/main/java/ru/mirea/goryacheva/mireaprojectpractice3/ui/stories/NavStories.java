@@ -83,7 +83,7 @@ public class NavStories extends Fragment {
 
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(getContext());
 
-        createNewStory = view.findViewById(R.id.button);
+        createNewStory = view.findViewById(R.id.buttonCreateStory);
         createStories(view);
 
         recyclerView = view.findViewById(R.id.recyclerView);

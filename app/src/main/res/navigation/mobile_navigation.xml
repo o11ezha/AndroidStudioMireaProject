@@ -62,5 +62,10 @@
         android:name="ru.mirea.goryacheva.mireaprojectpractice3.ui.stories.NavStories"
         android:label="fragment_nav_stories"
         tools:layout="@layout/fragment_nav_stories" />
+    <fragment
+        android:id="@+id/navTimeFromNet"
+        android:name="ru.mirea.goryacheva.mireaprojectpractice3.ui.autho.navTimeFromNet"
+        android:label="fragment_nav_time_from_net"
+        tools:layout="@layout/fragment_nav_time_from_net" />
 
 </navigation>

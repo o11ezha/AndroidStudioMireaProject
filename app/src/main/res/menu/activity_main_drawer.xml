@@ -55,6 +55,11 @@
         <item
             android:id="@+id/navStories"
             android:icon="@android:drawable/ic_menu_send"
-            android:title="@string/manu_Stories" />
+            android:title="@string/menu_Stories" />
+
+        <item
+            android:id="@+id/navTimeFromNet"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="@string/menu_Time" />
     </group>
 </menu>

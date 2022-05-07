@@ -22,7 +22,7 @@
             app:layout_constraintVertical_bias="0.088" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonCreateStory"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="#7CD36D"
