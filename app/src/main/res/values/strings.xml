@@ -22,4 +22,9 @@
     <string name="menu_Stories">Stories</string>
     <string name="menu_Time">Time (from the Net)</string>
     <string name="menu_Slimes">Slimes Database</string>
+    <string name="menu_Maps">Maps</string>
+
+    <string name="unknown_error_message">unknown_error</string>
+    <string name="remote_error_message">remote_error</string>
+    <string name="network_error_message">network_error</string>
 </resources>

@@ -66,5 +66,10 @@
             android:id="@+id/navSlimes"
             android:icon="@drawable/a00d0sdfjhs"
             android:title="@string/menu_Slimes" />
+
+        <item
+            android:id="@+id/navMaps"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="@string/menu_Maps" />
     </group>
 </menu>

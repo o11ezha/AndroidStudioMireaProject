@@ -72,5 +72,10 @@
         android:name="ru.mirea.goryacheva.mireaprojectpractice3.ui.Slimes.NavSlimes"
         android:label="fragment_nav_slimes"
         tools:layout="@layout/fragment_nav_slimes" />
+    <fragment
+        android:id="@+id/navMaps"
+        android:name="ru.mirea.goryacheva.mireaprojectpractice3.ui.Maps.NavMaps"
+        android:label="fragment_nav_maps"
+        tools:layout="@layout/fragment_nav_maps" />
 
 </navigation>
