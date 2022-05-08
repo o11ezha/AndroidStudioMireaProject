@@ -40,7 +40,6 @@ public class NavSlimes extends Fragment {
     public NavSlimes() {
         // Required empty public constructor
     }
-
     /**
      * Use this factory method to create a new instance of
      * this fragment using the provided parameters.
