@@ -61,5 +61,10 @@
             android:id="@+id/navTimeFromNet"
             android:icon="@android:drawable/ic_menu_recent_history"
             android:title="@string/menu_Time" />
+
+        <item
+            android:id="@+id/navSlimes"
+            android:icon="@drawable/a00d0sdfjhs"
+            android:title="@string/menu_Slimes" />
     </group>
 </menu>

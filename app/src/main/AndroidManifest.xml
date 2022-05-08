@@ -28,6 +28,9 @@
         <meta-data
             android:name="com.google.android.actions"
             android:resource="@xml/filepaths" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
         <service
             android:name=".ui.musicandrecords.PlayerService"
@@ -46,6 +49,10 @@
 
         <activity
             android:name=".ui.stories.StoryView"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.Slimes.SlimeView"
             android:exported="false" />
 
         <activity

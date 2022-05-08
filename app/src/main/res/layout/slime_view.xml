@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/slimebackground">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:fontFamily="sans-serif-medium"
+        android:radius="40dp"
+        android:text="Create your own slime!"
+        android:textAlignment="center"
+        android:textColor="#E0FAF8"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <EditText
+        android:id="@+id/PlortEdit"
+        android:layout_width="215dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:fontFamily="@font/rubik"
+        android:hint="plort"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textplortSlimeview"
+        app:layout_constraintTop_toBottomOf="@+id/FavtoyEdit"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <TextView
+        android:id="@+id/textfavmealSlimeview"
+        android:layout_width="176dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="What's your slime favourite meal?"
+        android:textAlignment="center"
+        android:textColor="#036398"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textdietSlimeview" />
+
+    <EditText
+        android:id="@+id/DietEdit"
+        android:layout_width="215dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:fontFamily="@font/rubik"
+        android:hint="diet"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textdietSlimeview"
+        app:layout_constraintTop_toBottomOf="@+id/TypeEdit" />
+
+    <TextView
+        android:id="@+id/textnameSlimeview"
+        android:layout_width="178dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Name of your slime:"
+        android:textAlignment="center"
+        android:textColor="#036398"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/FavtoyEdit"
+        android:layout_width="215dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:fontFamily="@font/rubik"
+        android:hint="favourite toy"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textfavtoySlimeview"
+        app:layout_constraintTop_toBottomOf="@+id/FavmealEdit" />
+
+    <TextView
+        android:id="@+id/texttypeSlimeview"
+        android:layout_width="176dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Type of your slime:"
+        android:textAlignment="center"
+        android:textColor="#036398"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textnameSlimeview" />
+
+    <EditText
+        android:id="@+id/NameEdit"
+        android:layout_width="215dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="92dp"
+        android:ems="10"
+        android:fontFamily="@font/rubik"
+        android:hint="name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textnameSlimeview"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/TypeEdit"
+        android:layout_width="215dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:fontFamily="@font/rubik"
+        android:hint="type"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/texttypeSlimeview"
+        app:layout_constraintTop_toBottomOf="@+id/NameEdit" />
+
+    <TextView
+        android:id="@+id/textdietSlimeview"
+        android:layout_width="176dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="What's your slime diet?"
+        android:textAlignment="center"
+        android:textColor="#036398"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/texttypeSlimeview" />
+
+    <TextView
+        android:id="@+id/textfavtoySlimeview"
+        android:layout_width="176dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="What's your slime favourite toy?"
+        android:textAlignment="center"
+        android:textColor="#036398"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textfavmealSlimeview" />
+
+    <TextView
+        android:id="@+id/textplortSlimeview"
+        android:layout_width="176dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="What kind of plort your slime provide?"
+        android:textAlignment="center"
+        android:textColor="#036398"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textfavtoySlimeview"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <EditText
+        android:id="@+id/FavmealEdit"
+        android:layout_width="215dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:fontFamily="@font/rubik"
+        android:hint="favourite meal"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textfavmealSlimeview"
+        app:layout_constraintTop_toBottomOf="@+id/DietEdit" />
+
+    <Button
+        android:id="@+id/buttonSaveSlime"
+        android:layout_width="266dp"
+        android:layout_height="78dp"
+        android:backgroundTint="#01369F"
+        android:fontFamily="sans-serif-medium"
+        android:text="Save your Slime"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

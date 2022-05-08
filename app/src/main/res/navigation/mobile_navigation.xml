@@ -67,5 +67,10 @@
         android:name="ru.mirea.goryacheva.mireaprojectpractice3.ui.autho.navTimeFromNet"
         android:label="fragment_nav_time_from_net"
         tools:layout="@layout/fragment_nav_time_from_net" />
+    <fragment
+        android:id="@+id/navSlimes"
+        android:name="ru.mirea.goryacheva.mireaprojectpractice3.ui.Slimes.NavSlimes"
+        android:label="fragment_nav_slimes"
+        tools:layout="@layout/fragment_nav_slimes" />
 
 </navigation>
